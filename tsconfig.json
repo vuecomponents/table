@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "noImplicitThis": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "target": "es5",
+    "lib": [
+      "dom",
+      "es5",
+      "es6",
+      "es7",
+      "es2015.generator",
+      "es2015.symbol",
+      "es2015.promise"
+    ],
+    "baseUrl": "./",
+    "paths": {
+      "vue": [
+        "node_modules/vue/dist/vue11.js"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "files": []
+}
